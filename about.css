@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #ffffffdd;
+} 
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.navigation a {
+    color: #ffffffdd;
+    text-decoration: none;
+}
+
+.nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 25px;
+    padding-left: 20px;
+}
+
+.nav li{
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin: 20px;
+}
+
+@media (max-width: 600px) {
+    .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 15px;
+    }
+}
+
+
+h1 {
+    margin: 0;
+}
+
+.intro {
+    color: #ffffffdd;
+}
+
+.special {
+    color: #e1b913;
+}
+
+.highlight {
+    background-color: #e1b913;
+    width: 100%;
+    color: #B71C1C;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .highlight {
+        width: 50%;
+    }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+#about {
+    background-color: #e1b913;
+    color: black;
+    margin: 20px;
+    padding: 15px; 
+}
+
+.decor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .decor {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+h2 {
+    color: #ffffffdd;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #B71C1C;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #B71C1C;
+}
+
+.values-grid {
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+#about ul {
+    padding-left: 25px;
+}
+
+#about li {
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+.tagline {
+    text-align: center;
+    color: #ffffffdd;
+    font-weight: bold;
+}
+
+.except {
+    color: #ffffffdd;
+    margin: 20px;
+}
