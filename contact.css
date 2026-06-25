@@ -4,7 +4,7 @@
 
 body {
     background-color: black;
-    color: white;
+    color: #ffffffdd;
 } 
 
 nav ul {
@@ -103,6 +103,16 @@ a:hover {
     color: black;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button {
+    width: 60px;
+}
+
 .tagline {
     text-align: center;
     color: #ffffffdd;
@@ -110,7 +120,7 @@ a:hover {
 }
 
 .except {
-    color: white;
+    color: #ffffffdd;
     text-align: center;
     margin: 20px;
 }
